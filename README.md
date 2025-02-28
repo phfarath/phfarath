@@ -15,11 +15,11 @@ Sou um estudante de Engenharia de Software na FIAP, apaixonado por desenvolvimen
 
 ## 📌 Projetos em Destaque
 
-🔹 **[SleepWell](https://github.com/phfarath/SleepWell)** - Aplicativo para melhoria de hábitos e sono.
-🔹 **[Calculadora Científica](https://github.com/phfarath/C-Projects)** - Modelo de Calculadora Científica.
-🔹 **[Previsão de Diabetes](https://github.com/phfarath/Python-Projects)** - Modelo de IA para análise de saúde.
-🔹 **[To-Do List com Java Spring](https://github.com/phfarath/Java-Projects)** - Sistema para organização de tarefas.
-🔹 **[Site - La Belle Cutanee](https://www.labellecutanee.com.br)** - Site para uma clínica dermatológica.
+- 🔹 **[SleepWell](https://github.com/phfarath/SleepWell)** - Aplicativo para melhoria de hábitos e sono.
+- 🔹 **[Calculadora Científica](https://github.com/phfarath/C-Projects)** - Modelo de Calculadora Científica.
+- 🔹 **[Previsão de Diabetes](https://github.com/phfarath/Python-Projects)** - Modelo de IA para análise de saúde.
+- 🔹 **[To-Do List com Java Spring](https://github.com/phfarath/Java-Projects)** - Sistema para organização de tarefas.
+- 🔹 **[Site - La Belle Cutanee](https://www.labellecutanee.com.br)** - Site para uma clínica dermatológica.
 
 ## 📫 Como me encontrar
 
