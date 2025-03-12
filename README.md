@@ -11,7 +11,10 @@ Sou um estudante de Engenharia de Software na FIAP, apaixonado por desenvolvimen
 - **Desenvolvimento Web:** React, Spring Boot, APIs REST
 - **Machine Learning:** Scikit-learn, Pandas, NumPy
 - **Hardware e IoT:** Arduino, Edge Computing
-- **Engenharia de Software:** Scrum, Algoritmos 
+- **Engenharia de Software:** Scrum, Algoritmos
+
+## 🔝 Mais utilizados
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=phfarath&layout=donut)](https://github.com/phfarath/github-readme-stats)
 
 ## 📌 Projetos em Destaque
 
