@@ -58,7 +58,7 @@ class PH:
 
 <!-- Animated carousel — file lives at assets/projects-carousel.svg in this repo -->
 <div align="center">
-  <img src=".projects-carousel.svg" alt="Featured Projects" width="800" />
+  <img src="projects-carousel.svg" alt="Featured Projects" width="800" />
 </div>
 
 ---
@@ -95,7 +95,7 @@ class PH:
 
 <!-- Animated contact banner — file lives at assets/contact-animated.svg in this repo -->
 <div align="center">
-  <img src=".contact-animated.svg" alt="Contact" width="600" />
+  <img src="contact-animated.svg" alt="Contact" width="600" />
 </div>
 
 <div align="center">
