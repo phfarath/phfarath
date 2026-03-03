@@ -1,0 +1,55 @@
+<svg width="600" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    .pulse2 { animation: pulse 3s ease-in-out 1s infinite; }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px currentColor); }
+      50% { opacity: 0.7; filter: drop-shadow(0 0 12px currentColor); }
+    }
+    .badge { font-family: Arial, sans-serif; font-size: 13px; font-weight: 600; }
+    .slide { animation: slideIn 0.8s cubic-bezier(0.16,1,0.3,1) both; }
+    .slide1 { animation-delay: 0s; }
+    .slide2 { animation-delay: 0.15s; }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <filter id="glow-purple">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glow-blue">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="600" height="100" fill="#0d1117" rx="8"/>
+
+<!-- LinkedIn Badge -->
+<g class="slide slide1">
+  <g class="pulse" filter="url(#glow-blue)">
+    <rect x="100" y="28" width="165" height="44" rx="8" fill="#0a0a0a" stroke="#0A66C2" stroke-width="1.5"/>
+    <!-- LI icon area -->
+    <rect x="100" y="28" width="44" height="44" rx="8" fill="#0A66C2"/>
+    <text x="122" y="56" text-anchor="middle" font-family="Arial" font-size="22" font-weight="900" fill="white">in</text>
+    <text x="199" y="47" text-anchor="middle" font-family="Arial" font-size="10" fill="#8b949e">CONNECT ON</text>
+    <text x="199" y="63" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="white">LinkedIn</text>
+  </g>
+</g>
+
+<!-- Email Badge -->
+<g class="slide slide2">
+  <g class="pulse2" filter="url(#glow-purple)">
+    <rect x="285" y="28" width="165" height="44" rx="8" fill="#0a0a0a" stroke="#EA4335" stroke-width="1.5"/>
+    <!-- Gmail icon area -->
+    <rect x="285" y="28" width="44" height="44" rx="8" fill="#EA4335"/>
+    <text x="307" y="56" text-anchor="middle" font-family="Arial" font-size="20" font-weight="900" fill="white">✉</text>
+    <text x="384" y="47" text-anchor="middle" font-family="Arial" font-size="10" fill="#8b949e">REACH OUT VIA</text>
+    <text x="384" y="63" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="white">Email</text>
+  </g>
+</g>
+
+</svg>

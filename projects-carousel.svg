@@ -1,0 +1,227 @@
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+  .bg { fill: #0d1117; }
+  .card { fill: #161b22; }
+  .t-name { font-family: 'JetBrains Mono', monospace; font-size: 22px; font-weight: 700; }
+  .t-tagline { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; fill: #e6edf3; }
+  .t-desc { font-family: Arial, sans-serif; font-size: 12.5px; fill: #7d8590; }
+  .t-tag { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; fill: #8b949e; }
+  .t-icon { font-size: 32px; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif; }
+
+  .proj1 { animation: anim1 16s ease-in-out infinite; }
+  @keyframes anim1 {
+  0% { opacity: 1; }
+  23.5% { opacity: 1; }
+  25.0% { opacity: 0; }
+  98.5% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+  .proj2 { animation: anim2 16s ease-in-out infinite; }
+  @keyframes anim2 {
+  0% { opacity: 0; }
+  25.0% { opacity: 0; }
+  26.5% { opacity: 1; }
+  48.5% { opacity: 1; }
+  50.0% { opacity: 0; }
+  100% { opacity: 0; }
+  }
+
+  .proj3 { animation: anim3 16s ease-in-out infinite; }
+  @keyframes anim3 {
+  0% { opacity: 0; }
+  50.0% { opacity: 0; }
+  51.5% { opacity: 1; }
+  73.5% { opacity: 1; }
+  75.0% { opacity: 0; }
+  100% { opacity: 0; }
+  }
+
+  .proj4 { animation: anim4 16s ease-in-out infinite; }
+  @keyframes anim4 {
+  0% { opacity: 0; }
+  75.0% { opacity: 0; }
+  76.5% { opacity: 1; }
+  98.5% { opacity: 1; }
+  100% { opacity: 0; }
+  }
+
+  .dot-active { fill: #a78bfa; }
+  .dot-ring { fill: none; stroke: #30363d; stroke-width: 1.5; }
+  .dot-anim { animation: dotpulse 16s ease-in-out infinite; }
+</style>
+</defs>
+
+<!-- Background -->
+<rect width="800" height="260" fill="#0d1117" rx="0"/>
+
+
+<!-- Project 1: PromptCI -->
+<g class="proj1" opacity="1">
+  <!-- Card background -->
+  <rect x="20" y="15" width="760" height="220" rx="12" fill="#161b22" stroke="#21262d" stroke-width="1.5"/>
+  <!-- Left accent bar -->
+  <rect x="20" y="15" width="4" height="220" rx="2" fill="#a78bfa"/>
+  
+  <!-- Icon -->
+  <text x="62" y="78" text-anchor="middle" class="t-icon">⚡</text>
+  
+  <!-- Project name -->
+  <text x="92" y="68" text-anchor="start" class="t-name" fill="#a78bfa">PromptCI</text>
+  
+  <!-- Tagline -->
+  <text x="92" y="92" text-anchor="start" class="t-tagline">Prompt Testing in Production</text>
+  
+  <!-- Divider -->
+  <line x1="92" y1="105" x2="740" y2="105" stroke="#21262d" stroke-width="1"/>
+  
+  <!-- Description -->
+  <text x="92" y="126" text-anchor="start" class="t-desc">Version, test, and deploy prompts like code.</text>
+  <text x="92" y="146" text-anchor="start" class="t-desc">Built for teams shipping LLM features at scale.</text>
+  
+  <!-- Tags -->
+  <rect x="64" y="175" width="58" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="93" y="188" text-anchor="middle" class="t-tag">Python</text><rect x="130" y="175" width="65" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="162" y="188" text-anchor="middle" class="t-tag">FastAPI</text><rect x="203" y="175" width="86" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="246" y="188" text-anchor="middle" class="t-tag">PostgreSQL</text><rect x="297" y="175" width="37" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="315" y="188" text-anchor="middle" class="t-tag">LLM</text>
+  
+  <!-- Progress label -->
+  <text x="730" y="78" text-anchor="end" class="t-tag" fill="#30363d">1 / 4</text>
+</g>
+
+<!-- Project 2: UniMemory -->
+<g class="proj2" opacity="0">
+  <!-- Card background -->
+  <rect x="20" y="15" width="760" height="220" rx="12" fill="#161b22" stroke="#21262d" stroke-width="1.5"/>
+  <!-- Left accent bar -->
+  <rect x="20" y="15" width="4" height="220" rx="2" fill="#60a5fa"/>
+  
+  <!-- Icon -->
+  <text x="62" y="78" text-anchor="middle" class="t-icon">🧠</text>
+  
+  <!-- Project name -->
+  <text x="92" y="68" text-anchor="start" class="t-name" fill="#60a5fa">UniMemory</text>
+  
+  <!-- Tagline -->
+  <text x="92" y="92" text-anchor="start" class="t-tagline">Memory for AI Agents</text>
+  
+  <!-- Divider -->
+  <line x1="92" y1="105" x2="740" y2="105" stroke="#21262d" stroke-width="1"/>
+  
+  <!-- Description -->
+  <text x="92" y="126" text-anchor="start" class="t-desc">On-demand memory retrieval — agents request what they need.</text>
+  <text x="92" y="146" text-anchor="start" class="t-desc">No passive injection. No cognitive noise. No debug hell.</text>
+  
+  <!-- Tags -->
+  <rect x="64" y="175" width="58" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="93" y="188" text-anchor="middle" class="t-tag">Python</text><rect x="130" y="175" width="79" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="169" y="188" text-anchor="middle" class="t-tag">Vector DB</text><rect x="217" y="175" width="86" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="260" y="188" text-anchor="middle" class="t-tag">Embeddings</text><rect x="311" y="175" width="65" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="343" y="188" text-anchor="middle" class="t-tag">FastAPI</text>
+  
+  <!-- Progress label -->
+  <text x="730" y="78" text-anchor="end" class="t-tag" fill="#30363d">2 / 4</text>
+</g>
+
+<!-- Project 3: DayOS -->
+<g class="proj3" opacity="0">
+  <!-- Card background -->
+  <rect x="20" y="15" width="760" height="220" rx="12" fill="#161b22" stroke="#21262d" stroke-width="1.5"/>
+  <!-- Left accent bar -->
+  <rect x="20" y="15" width="4" height="220" rx="2" fill="#34d399"/>
+  
+  <!-- Icon -->
+  <text x="62" y="78" text-anchor="middle" class="t-icon">📱</text>
+  
+  <!-- Project name -->
+  <text x="92" y="68" text-anchor="start" class="t-name" fill="#34d399">DayOS</text>
+  
+  <!-- Tagline -->
+  <text x="92" y="92" text-anchor="start" class="t-tagline">Behavioral Scheduling for iOS</text>
+  
+  <!-- Divider -->
+  <line x1="92" y1="105" x2="740" y2="105" stroke="#21262d" stroke-width="1"/>
+  
+  <!-- Description -->
+  <text x="92" y="126" text-anchor="start" class="t-desc">Learns task execution patterns from your history.</text>
+  <text x="92" y="146" text-anchor="start" class="t-desc">Reschedules proactively — not when you miss, but before.</text>
+  
+  <!-- Tags -->
+  <rect x="64" y="175" width="51" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="89" y="188" text-anchor="middle" class="t-tag">Swift</text><rect x="123" y="175" width="79" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="162" y="188" text-anchor="middle" class="t-tag">SwiftData</text><rect x="210" y="175" width="58" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="239" y="188" text-anchor="middle" class="t-tag">CoreML</text><rect x="276" y="175" width="37" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="294" y="188" text-anchor="middle" class="t-tag">iOS</text>
+  
+  <!-- Progress label -->
+  <text x="730" y="78" text-anchor="end" class="t-tag" fill="#30363d">3 / 4</text>
+</g>
+
+<!-- Project 4: LLM Router -->
+<g class="proj4" opacity="0">
+  <!-- Card background -->
+  <rect x="20" y="15" width="760" height="220" rx="12" fill="#161b22" stroke="#21262d" stroke-width="1.5"/>
+  <!-- Left accent bar -->
+  <rect x="20" y="15" width="4" height="220" rx="2" fill="#f59e0b"/>
+  
+  <!-- Icon -->
+  <text x="62" y="78" text-anchor="middle" class="t-icon">🔁</text>
+  
+  <!-- Project name -->
+  <text x="92" y="68" text-anchor="start" class="t-name" fill="#f59e0b">LLM Router</text>
+  
+  <!-- Tagline -->
+  <text x="92" y="92" text-anchor="start" class="t-tagline">Semantic Caching + Intelligent Routing</text>
+  
+  <!-- Divider -->
+  <line x1="92" y1="105" x2="740" y2="105" stroke="#21262d" stroke-width="1"/>
+  
+  <!-- Description -->
+  <text x="92" y="126" text-anchor="start" class="t-desc">Kills enterprise LLM sprawl. Routes each query to the</text>
+  <text x="92" y="146" text-anchor="start" class="t-desc">optimal model on cost/latency/quality tradeoffs.</text>
+  
+  <!-- Tags -->
+  <rect x="64" y="175" width="58" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="93" y="188" text-anchor="middle" class="t-tag">Python</text><rect x="130" y="175" width="51" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="155" y="188" text-anchor="middle" class="t-tag">Redis</text><rect x="189" y="175" width="86" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="232" y="188" text-anchor="middle" class="t-tag">Sentence-T</text><rect x="283" y="175" width="65" height="18" rx="4" fill="#1e2433" stroke="#30363d" stroke-width="1"/><text x="315" y="188" text-anchor="middle" class="t-tag">FastAPI</text>
+  
+  <!-- Progress label -->
+  <text x="730" y="78" text-anchor="end" class="t-tag" fill="#30363d">4 / 4</text>
+</g>
+
+<!-- Progress dots -->
+<circle cx="376.0" cy="248" r="4" class="dot-ring"/>
+<circle cx="376.0" cy="248" r="3">
+  <animate attributeName="fill" values="#a78bfa;#30363d;#30363d;#30363d;#a78bfa" 
+    dur="16s" begin="0.0s" repeatCount="indefinite" 
+    keyTimes="0;0.01;0.24;0.25;1"
+    calcMode="discrete"/>
+  <animate attributeName="r" values="4;3;3;3;4"
+    dur="16s" begin="0.0s" repeatCount="indefinite"
+    keyTimes="0;0.01;0.24;0.25;1"
+    calcMode="discrete"/>
+</circle>
+<circle cx="392.0" cy="248" r="4" class="dot-ring"/>
+<circle cx="392.0" cy="248" r="3">
+  <animate attributeName="fill" values="#a78bfa;#30363d;#30363d;#30363d;#a78bfa" 
+    dur="16s" begin="4.0s" repeatCount="indefinite" 
+    keyTimes="0;0.01;0.24;0.25;1"
+    calcMode="discrete"/>
+  <animate attributeName="r" values="4;3;3;3;4"
+    dur="16s" begin="4.0s" repeatCount="indefinite"
+    keyTimes="0;0.01;0.24;0.25;1"
+    calcMode="discrete"/>
+</circle>
+<circle cx="408.0" cy="248" r="4" class="dot-ring"/>
+<circle cx="408.0" cy="248" r="3">
+  <animate attributeName="fill" values="#a78bfa;#30363d;#30363d;#30363d;#a78bfa" 
+    dur="16s" begin="8.0s" repeatCount="indefinite" 
+    keyTimes="0;0.01;0.24;0.25;1"
+    calcMode="discrete"/>
+  <animate attributeName="r" values="4;3;3;3;4"
+    dur="16s" begin="8.0s" repeatCount="indefinite"
+    keyTimes="0;0.01;0.24;0.25;1"
+    calcMode="discrete"/>
+</circle>
+<circle cx="424.0" cy="248" r="4" class="dot-ring"/>
+<circle cx="424.0" cy="248" r="3">
+  <animate attributeName="fill" values="#a78bfa;#30363d;#30363d;#30363d;#a78bfa" 
+    dur="16s" begin="12.0s" repeatCount="indefinite" 
+    keyTimes="0;0.01;0.24;0.25;1"
+    calcMode="discrete"/>
+  <animate attributeName="r" values="4;3;3;3;4"
+    dur="16s" begin="12.0s" repeatCount="indefinite"
+    keyTimes="0;0.01;0.24;0.25;1"
+    calcMode="discrete"/>
+</circle>
+
+</svg>
