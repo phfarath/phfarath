@@ -65,10 +65,10 @@ class PH:
 
 ## Stats
 
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=phfarath&show_icons=true&theme=tokyonight&bg_color=0d1117&border_color=302b63&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&count_private=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phfarath&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=302b63&title_color=a78bfa&text_color=c9d1d9" />
-</div>
+<!-- <div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=phfarath&show_icons=true&theme=tokyonight&bg_color=0d1117&border_color=302b63&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&count_private=true&cache_seconds=1800" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phfarath&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=302b63&title_color=a78bfa&text_color=c9d1d9&cache_seconds=1800" />
+</div> -->
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=phfarath&theme=tokyonight&background=0d1117&border=302b63&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa" />
